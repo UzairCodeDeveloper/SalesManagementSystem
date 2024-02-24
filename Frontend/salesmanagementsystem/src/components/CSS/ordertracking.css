@@ -1,0 +1,111 @@
+.container-fluid{
+    /* border: 2px solid green; */
+}
+.container{
+    /* border: 2px solid black; */
+}
+.orderContainer-fluid{
+    
+    margin-top: 30px;
+}
+.orderContainer{
+    height: 100%;
+}
+.orderTitle{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.orderTable{
+    /* border: 2px solid blue; */
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 60px;
+}
+.btn{
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.orderTable{
+    /* border: 2px solid green; */
+    height: 70%;
+    padding: 10px 40px;
+}
+.orderTableDetail{
+    display: flex;
+}
+#orderTableSpan{
+    margin-left: 10px;
+}
+.orderDetail{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 80%;
+}
+.select{
+    padding: 10px 20px;
+}
+table, th, td {
+    /* border:1px solid black; */
+    
+  }
+  table{
+    width:  100%;
+  }
+th,td{
+    /* text-align: center; */
+    padding: 4px;
+    max-width: 10rem;
+    height: 10px;
+}
+thead{
+    /* background-color: black; */
+    /* color: white; */
+    border: 1px  solid black;
+    border-left: none;
+    border-right: none;
+}
+tr{
+    /* height: 10px;
+    border: 2px solid red; */
+}
+
+tr{
+    height: 50px;
+    /* border: 2px solid green; */
+}
+
+tbody tr:nth-last-of-type(even){
+    background-color:#e6eeff;
+}
+.reportbtn{
+    display: none;
+}
+
+.updatecontent{
+    /* border: 2px solid green ; */
+    margin: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.lablebox{
+    width: 40%;
+    /* border: 2px solid red; */
+}
+.Customers{
+    display: none;
+}
+.Products{
+    display: none;
+}
+.SalesPerson{
+    display: none;
+}
